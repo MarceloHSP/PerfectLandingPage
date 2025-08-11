@@ -1,3 +1,23 @@
+
+:root {
+  /* Cores Principais */
+  --cor-primaria: #1a1a1a; /* Roxo principal para botões e detalhes */
+  --cor-fundo-escuro: #343a40; /* Fundo do CTA e Footer (no tema escuro) */
+  --cor-fundo-branco: #ffffff;
+  --cor-fundo-cinza: #f8f9fa; /* Fundo de seções como Features, FAQ */
+  
+  /* Cores de Texto */
+  --cor-texto-principal: #1a1a1a; /* Para títulos */
+  --cor-texto-secundario: #666;   /* Para parágrafos e textos de apoio */
+  --cor-texto-claro: #ffffff;       /* Para textos sobre fundos escuros */
+
+  /* Cores de Borda */
+  --cor-borda: #e0e0e0;
+
+  /* ...outras variáveis... */
+  --cor-estrelas: #ffc107;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

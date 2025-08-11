@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: var(--cor-fundo-branco);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--cor-texto-principal); /* Garante que a logo tenha a cor principal do texto */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a,
+.navbar-buttons button {
+  font-size: 16px; /* Define um tamanho padrão para ambos */
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: var(--cor-texto-principal);
+  font-weight: 500;
+}
+
+.navbar-buttons button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px; /* Adicionei de volta o border-radius */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-buttons .login-button {
+  background-color: transparent;
+  color: var(--cor-texto-principal);
+  border: 1px solid var(--cor-texto-principal);
+}
+
+.navbar-buttons .register-button {
+  background-color: var(--cor-primaria); /* Cor principal do tema */
+  color: var(--cor-texto-claro);       /* Texto claro para contrastar */
+  border: 1px solid var(--cor-primaria);  /* Borda da mesma cor para consistência */
+}

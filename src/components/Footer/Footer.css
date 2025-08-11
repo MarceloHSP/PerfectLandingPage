@@ -1,0 +1,125 @@
+/* Seção principal do Footer com tema claro */
+.footer-section {
+  background-color: var(--cor-fundo-branco); 
+  color: var(--cor-texto-principal); 
+  padding: 80px 50px 20px 50px;
+  border-top: 1px solid var(--cor-borda); 
+}
+
+/* Parte de cima do footer (logo, links, newsletter) */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* Coluna da Logo */
+.footer-logo-column .footer-logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--cor-texto-principal); 
+}
+
+/* Colunas de Links */
+.footer-links-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--cor-texto-principal); 
+}
+
+.footer-links-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links-column ul li a {
+  color: var(--cor-texto-secundario); 
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links-column ul li a:hover {
+  color: var(--cor-texto-principal); 
+}
+
+/* Coluna da Newsletter */
+.footer-newsletter-column {
+  max-width: 300px;
+}
+
+.footer-newsletter-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: var(--cor-texto-principal); 
+}
+
+.footer-newsletter-column p {
+  font-size: 14px;
+  color: var(--cor-texto-secundario); 
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid var(--cor-borda);
+  background-color: var(--cor-fundo-branco); 
+  color: var(--cor-texto-principal); 
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  border: 1px solid var(--cor-texto-principal); 
+  background-color: var(--cor-texto-principal); 
+  color: var(--cor-texto-claro); 
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+}
+
+/* Parte de baixo do footer (copyright, etc) */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-top: 1px solid var(--cor-borda); 
+  font-size: 14px;
+  color: var(--cor-texto-secundario); 
+}
+
+.footer-legal-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-legal-links a {
+  color: var(--cor-texto-secundario); 
+  text-decoration: none;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-icons a {
+  color: var(--cor-texto-principal); 
+  font-size: 18px;
+  text-decoration: none;
+}

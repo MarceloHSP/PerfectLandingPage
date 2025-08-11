@@ -1,0 +1,54 @@
+/* Container principal da seção de funcionalidades */
+.features-section {
+  padding: 80px 0; /* Apenas espaçamento vertical para o fundo ir de ponta a ponta */
+  background-color: var(--cor-fundo-cinza); 
+  text-align: center;
+}
+
+/* Container que centraliza o conteúdo */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* Título principal da seção */
+.features-main-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--cor-texto-principal); 
+}
+
+/* Grid que segura os 3 cards de benefícios */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Estilo individual de cada card de benefício */
+.feature-card {
+  
+}
+
+/* Estilo do ícone */
+.feature-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  /* A cor do emoji não é alterada por CSS */
+}
+
+/* Título de cada benefício */
+.feature-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--cor-texto-principal); 
+  margin-bottom: 15px;
+}
+
+/* Descrição de cada benefício */
+.feature-description {
+  font-size: 16px;
+  color: var(--cor-texto-secundario); 
+  line-height: 1.6;
+}

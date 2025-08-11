@@ -1,0 +1,99 @@
+/* Container principal da seção */
+.product-benefit-section {
+  padding: 80px 0; /* Apenas espaçamento vertical */
+  background-color: var(--cor-fundo-cinza); 
+}
+
+/* Container que centraliza e alinha o conteúdo */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Coluna da esquerda (textos) */
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+/* Tagline (texto pequeno acima do título) */
+.tagline {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--cor-primaria); 
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* Título principal da seção */
+.benefit-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--cor-texto-principal);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/* Parágrafo de descrição */
+.benefit-description {
+  font-size: 18px;
+  color: var(--cor-texto-secundario); 
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Lista de benefícios */
+.benefit-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.benefit-list li {
+  font-size: 16px;
+  color: var(--cor-texto-principal); 
+  margin-bottom: 15px;
+}
+
+/* Botão CTA secundário (com contorno) */
+.secondary-cta-button {
+  background-color: transparent;
+  color: var(--cor-texto-principal); 
+  border: 2px solid var(--cor-texto-principal); 
+  padding: 12px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Coluna da direita (imagem) */
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do placeholder cinza */
+.image-content:empty {
+  min-width: 400px;
+  height: 400px;
+  background-color: var(--cor-fundo-branco); 
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ícone de imagem dentro do placeholder */
+.image-content:empty::after {
+  content: '🖼️';
+  font-size: 50px;
+  color: var(--cor-borda); 
+}

@@ -1,0 +1,98 @@
+/* Container principal da seção de testemunhos */
+.testimonials-section {
+  padding: 80px 50px;
+  background-color: var(--cor-fundo-branco); 
+  text-align: center;
+}
+
+/* Cabeçalho com título e subtítulo */
+.testimonials-header {
+  max-width: 600px;
+  margin: 0 auto 60px auto;
+}
+
+.testimonials-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--cor-texto-principal); 
+  margin-bottom: 15px;
+}
+
+.testimonials-header p {
+  font-size: 18px;
+  color: var(--cor-texto-secundario); 
+  line-height: 1.6;
+}
+
+/* Grid que segura os 3 cards */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo individual de cada card */
+.testimonial-card {
+  background-color: var(--cor-fundo-cinza); 
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Avaliação com estrelas */
+.star-rating {
+  font-size: 20px;
+  color: var(--cor-estrelas); 
+  margin-bottom: 20px;
+}
+
+/* Texto do depoimento */
+.testimonial-text {
+  font-size: 16px;
+  color: var(--cor-texto-principal); 
+  line-height: 1.7;
+  font-style: italic;
+  flex-grow: 1;
+  margin-bottom: 25px;
+}
+
+/* Container para as informações do autor */
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+  border-top: 1px solid var(--cor-borda); 
+}
+
+/* Foto real e placeholder do autor */
+.author-photo, .author-photo-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: var(--cor-borda); 
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Detalhes do autor (nome e profissão) */
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+  color: var(--cor-texto-principal); 
+}
+
+.author-title {
+  font-size: 14px;
+  color: var(--cor-texto-secundario); 
+}

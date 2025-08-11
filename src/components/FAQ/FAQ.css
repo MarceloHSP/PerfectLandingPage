@@ -1,0 +1,68 @@
+/* Container principal da seção de FAQ */
+.faq-section {
+  padding: 80px 50px;
+  background-color: var(--cor-fundo-cinza); 
+  text-align: center;
+}
+
+/* Cabeçalho com título e subtítulo */
+.faq-header {
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+}
+
+.faq-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--cor-texto-principal); 
+  margin-bottom: 15px;
+}
+
+.faq-header p {
+  font-size: 18px;
+  color: var(--cor-texto-secundario); 
+  line-height: 1.6;
+}
+
+/* Container para a lista de perguntas */
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Cada item da lista (pergunta + resposta) */
+.faq-item {
+  border-bottom: 1px solid var(--cor-borda); 
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+/* A linha da pergunta */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cor-texto-principal); 
+}
+
+/* A seta que indica abrir/fechar (herda a cor de .faq-question) */
+.faq-arrow {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+/* Rotação da seta quando o item está aberto */
+.faq-arrow.open {
+  transform: rotate(180deg);
+}
+
+/* A área da resposta */
+.faq-answer {
+  padding-top: 20px;
+  font-size: 16px;
+  color: var(--cor-texto-principal); 
+  line-height: 1.7;
+}
